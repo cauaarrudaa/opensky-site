@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+
 import { MessageCircle, ChevronDown, ArrowRight, Book, BarChart3, Globe, Zap, Pencil, MessageSquare, Mail, Instagram, Linkedin, Github, X, Star } from 'lucide-react';
 
 function App() {
@@ -177,7 +178,7 @@ function App() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            Soluções tecnológicas para o futuro
+            Soluções tecnológicas para o futuro do seu negócio
           </motion.p>
           <motion.a 
             href="https://wa.me/seu-numero" 
